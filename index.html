@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <script src="https://kit.fontawesome.com/460a8b521b.js"></script>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="https://kit.fontawesome.com/056d9f1094.js"></script>
+        <link rel="stylesheet" href="css/main.css">
+        <title>Aaron and Abner Displaying and Inputting Data</title>
+
+    </head>
+    <body>
+        <form action="/signup" method="post" class="center">
+            <div class="divsect">
+                <div><h2>Create an Intuit account</h2></div>
+                <div>One account for everything Intuit, including Mint.</div>
+                <div class="moreinfo">Learn More</div>
+            </div>
+            <div class="divsect">
+                <div class="lbltext text-left"><label for="email">Email Address</label></div>
+                <input type="email" id="email" name="email_address" maxlength="100" required>
+            </div>
+            <div class="divsect">
+                <div class="lbltext text-left"><label for="phone">Phone (recommended)</label></div>
+                <input type="tel" id="phone" name="phone" maxlength="30">
+            </div>
+            <div class="divsect">
+                <div class="lbltext text-left"><label for="password">Password</label></div>
+                <input type="password" id="password" name="password" maxlength="50">
+            </div>
+            
+            <div class="divsect">
+                <button class="createbtn" type="submit" id="submit" name="submit" value="Create Account"><i style="color: white;" class="fas fa-lock"></i> Create Account</button>
+            </div>
+            
+            <div class="divsect">
+                <div class="hintText">
+                    By clicking Create Account, you agree to our
+                    <span class="moreinfo">Terms of Service</span> and have read and acknowledge our <span class="moreinfo">Privacy Statement</span>.
+                </div>
+            </div>
+            
+            <div class="divsect btngray">
+                <div class="hintText">Invisible reCAPTCHA by Google <span class="moreinfo">Privacy Policy</span> and <span class="moreinfo">Terms of Use</span>.</div>
+            </div>
+        </form>
+    </body>
+</html>
