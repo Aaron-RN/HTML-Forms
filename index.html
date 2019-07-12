@@ -10,41 +10,55 @@
 <!---->
     </head>
     <body>
+        <div style="margin: auto;">
         <main>
-        <form action="/signup" method="post" class="center">
-            <div class="divsect">
-                <div><h2>Create an Intuit account</h2></div>
-                <div>One account for everything Intuit, including Mint.</div>
-                <div class="moreinfo">Learn More</div>
-            </div>
-            <div class="divsect">
-                <div class="lbltext text-left"><label for="email">Email Address</label></div>
-                <input type="email" id="email" name="email_address" maxlength="100" required>
-            </div>
-            <div class="divsect">
-                <div class="lbltext text-left"><label for="phone">Phone (recommended)</label></div>
-                <input type="tel" id="phone" name="phone" maxlength="30">
-            </div>
-            <div class="divsect">
-                <div class="lbltext text-left"><label for="password">Password</label></div>
-                <input type="password" id="password" name="password" maxlength="50">
-            </div>
-            
-            <div class="divsect">
-                <button class="createbtn" type="submit" id="submit" name="submit" value="Create Account"><i style="color: white;" class="fas fa-lock"></i> Create Account</button>
-            </div>
-            
-            <div class="divsect">
-                <div class="hintText">
-                    By clicking Create Account, you agree to our
-                    <span class="moreinfo">Terms of Service</span> and have read and acknowledge our <span class="moreinfo">Privacy Statement</span>.
+            <div style="margin: auto;text-align: center;"><img src="images/intuit.png"></div>
+            <form action="/signup" method="post" class="center">
+                <div class="divsect">
+                    <div><h2>Create an Intuit account</h2></div>
+                    <div>One account for everything Intuit, including Mint.</div>
+                    <div class="moreinfo">Learn More</div>
                 </div>
-            </div>
-            
-            <div class="divsect btngray">
-                <div class="hintText">Invisible reCAPTCHA by Google <span class="moreinfo">Privacy Policy</span> and <span class="moreinfo">Terms of Use</span>.</div>
-            </div>
-        </form>
+                <div class="divsect">
+                    <div class="lbltext text-left"><label for="email">Email Address</label></div>
+                    <input type="email" id="email" name="email_address" maxlength="100" required>
+                </div>
+                <div class="divsect">
+                    <div class="lbltext text-left"><label for="phone">Phone (recommended)</label></div>
+                    <input type="tel" id="phone" name="phone" maxlength="30">
+                </div>
+                <div class="divsect">
+                    <div class="lbltext text-left"><label for="password">Password</label></div>
+                    <input type="password" id="password" name="password" maxlength="50">
+                </div>
+
+                <div class="divsect">
+                    <button class="createbtn" type="submit" id="submit" name="submit" value="Create Account"><i style="color: white;" class="fas fa-lock"></i> Create Account</button>
+                </div>
+
+                <div class="divsect">
+                    <div class="hintText">
+                        By clicking Create Account, you agree to our
+                        <span class="moreinfo">Terms of Service</span> and have read and acknowledge our <span class="moreinfo">Privacy Statement</span>.
+                    </div>
+                </div>
+
+                <div class="divsect btngray">
+                    <div class="hintText">Invisible reCAPTCHA by Google <span class="moreinfo">Privacy Policy</span> and <span class="moreinfo">Terms of Use</span>.</div>
+                </div>
+            </form>
         </main>
+            <footer style="margin: auto; text-align: center; margin-bottom: 12px;">
+                <div style="margin-top: 12px;margin-bottom: 4px;">
+                    <a href="http://about.intuit.com/legal/">Legal</a>
+                    <a href="https://security.intuit.com/privacy/">Privacy</a>
+                    <a href="http://security.intuit.com/">Security</a>
+                </div>
+                <div style="margin: auto; max-width: 720px;font-size: 13px;line-height: 16px;">
+                    © 2019 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB, TurboTax, ProConnect and Mint are registered trademarks of Intuit Inc.
+                    <br>
+                    Terms and conditions, features, support, pricing, and service options subject to change without notice.</div>
+            </footer>
+        </div>
     </body>
 </html>
