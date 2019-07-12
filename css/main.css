@@ -1,4 +1,5 @@
 body{
+    background-color: rgb(230,230,235);
     font-family: AvenirNext,Avenir,"Helvetica Neue",Helvetica,Arial sans-serif;
 }
 .center {
@@ -70,9 +71,13 @@ form {
     font: 14px/1.4 "Helvetica Neue", Helvetica, Arial, sans-serif;
     overflow: hidden;
     width: 200px;
+    background-color: white;
 }
 .text-left{
     text-align: left;
+}
+.paddingTB-10{
+    padding: 10px 0 10px 0;
 }
 .divsect {
     margin-top: 30px;
@@ -80,6 +85,7 @@ form {
     padding-right: 30px;
 }
 input {
+    border: 1px solid lightgray;
     width: 100%;
     height: 30px;
     border-radius: 5px;
@@ -105,7 +111,7 @@ input {
     background-color: rgb(235,235,235);
 }
 .moreinfo{
-    color: lightskyblue;
+    color: rgb(60, 128, 217);
     cursor: pointer;
     text-decoration: none;
 }
@@ -115,7 +121,7 @@ input {
 .hintText{
     font-style: italic;
     color: lightslategray;
-    font-size: 12px;
+    font-size: 10px;
 }
 footer a{
     color: black;
