@@ -2,11 +2,34 @@ body{
     background-color: rgb(230,230,235);
     font-family: AvenirNext,Avenir,"Helvetica Neue",Helvetica,Arial sans-serif;
 }
+
+body > div{
+  margin: auto;
+}
+
 .center {
   margin: auto;
   width: 360px;
   border: 3px solid lightblue;
   padding-top: 30px;
+}
+
+.divsectButton > form{
+  border: none;
+  width: auto;
+}
+
+#signIn{
+  font-size:12px;
+}
+
+#signIn > i{
+  color: white;
+}
+
+#imageDiv{
+  margin: auto;
+  text-align: center;
 }
 
 .top-right{
@@ -52,10 +75,18 @@ body{
 
 }
 
+.mini-icons div img{
+  margin-right:3px
+}
+
 .top-right .divsectButton > button{
   padding-top:10px;
   padding-bottom: 10px;
 
+}
+
+#submit{
+  color: white;
 }
 
 .lbltext{
@@ -84,6 +115,12 @@ form {
     padding-left: 30px;
     padding-right: 30px;
 }
+
+.divsect > .hintText{
+  font-size: 12px;
+}
+
+
 input {
     border: 1px solid lightgray;
     width: 100%;
@@ -123,6 +160,25 @@ input {
     color: lightslategray;
     font-size: 10px;
 }
+
+footer{
+  margin: auto;
+  text-align: center;
+  margin-bottom: 12px;
+  font-size: 11px;
+}
+
+footer > .three-links{
+  margin-top: 12px;
+  margin-bottom: 4px;
+}
+
+footer > .bottomInfo{
+  margin: auto;
+  max-width: 720px;
+  line-height: 16px;
+}
+
 footer a{
     color: black;
     font-size: 14px;
